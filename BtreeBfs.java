@@ -73,5 +73,14 @@ public class BtreeBfs {
         int rightHeight = getHeight(n.right);
         return Math.max(leftHeight, rightHeight) + 1;
     }
+    
+    /* better
+    public static int getHeight(TreeNode n) {
+        if (n == null) {
+            return 0;
+        }
+        return (Math.max(getHeight(n.left),getHeight(n.right) )) + 1;
+    }
+*/
 
 }
