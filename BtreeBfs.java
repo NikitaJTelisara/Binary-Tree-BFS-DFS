@@ -48,7 +48,7 @@ public class BtreeBfs {
     }
 
     /* BFS *
-  /* iterative */
+  /* rec */
     public static void recLevelOrderTraversal(Node n) {
         int height = getHeight(n);
         for (int i = 1; i <= height; i++) {
